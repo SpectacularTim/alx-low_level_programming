@@ -13,6 +13,7 @@ int main(void)
 		putchar(lowercase_alphabets);
 		lowercase_alphabets++;
 	}
+
 	int uppercase_alphabets = 'A';
 
 	while (uppercase_alphabets <= 'Z')
