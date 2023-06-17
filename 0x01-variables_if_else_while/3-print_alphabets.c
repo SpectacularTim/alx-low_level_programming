@@ -6,20 +6,20 @@
  */
 int main(void)
 {
-	int lowercase_alphabets = 'a';
+	int alphabets = 'a';
 
-	while (lowercase_alphabets <= 'z')
+	while (alphabets <= 'z')
 	{
-		putchar(lowercase_alphabets);
-		lowercase_alphabets++;
+		putchar(alphabets);
+		alphabets++;
 	}
 
-	int uppercase_alphabets = 'A';
+	int alphabets = 'A';
 
-	while (uppercase_alphabets <= 'Z')
+	while (alphabets <= 'Z')
 	{
-		putchar(uppercase_alphabets);
-		uppercase_alphabets++;
+		putchar(alphabets);
+		alphabets++;
 	}
 	putchar('\n');
 	return (0);
