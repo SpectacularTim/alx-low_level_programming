@@ -6,16 +6,18 @@
  */
 int main(void)
 {
-	int alphabets = 'a';
+	int alphabets;
 
+	alphabets = 'a';
 	while (alphabets <= 'z')
 	{
 		putchar(alphabets);
 		alphabets++;
 	}
 
-	int alphabets = 'A';
+	int alphabets;
 
+	alphabets = 'A';
 	while (alphabets <= 'Z')
 	{
 		putchar(alphabets);
